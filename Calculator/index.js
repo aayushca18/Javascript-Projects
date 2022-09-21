@@ -6,7 +6,6 @@ for (let i = 0; i < keys.length; i++) {
 }
 function changeInput(eventObj){
     value = eventObj.target.value;
-    console.log(value);
 
     if (value=== "=") {
         document.getElementById("text").innerHTML = eval(document.getElementById("text").innerHTML);
