@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+.top-container{
+    background-image: url(https://images.unsplash.com/photo-1566475922470-2740a2d7e17b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 60vh;
+    background-size: cover;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+.navbar{
+    top: 0;
+    display: flex;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 5px 8px;
+    transition: background-color 0.4s;
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+    font-size: large;
+}
+.navbar ul li a:hover{
+    color: teal;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+    color: aliceblue;
+}
